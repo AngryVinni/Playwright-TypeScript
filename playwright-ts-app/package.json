@@ -1,0 +1,25 @@
+{
+  "name": "playwright-ts-app",
+  "version": "1.0.0",
+  "description": "A Playwright application using TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "testing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/node": "^14.0.0"
+  }
+}

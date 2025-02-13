@@ -46,3 +46,7 @@ playwright-ts-app
 ## Contributing
 
 Feel free to submit issues or pull requests to improve the project!
+
+
+start chrome and log in into acc account
+chrome --remote-debugging-port=9222 --user-data-dir

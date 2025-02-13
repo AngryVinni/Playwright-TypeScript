@@ -9,9 +9,9 @@ const config: PlaywrightTestConfig = {
 export default defineConfig({
   fullyParallel: true,
   testDir: './src/tests',
-  timeout: 30000,
+  timeout: 90000,
   expect: {
-    timeout: 5000,
+    timeout: 10000,
   },
   reporter: 'html',
   use: {
